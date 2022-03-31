@@ -1,0 +1,15 @@
+booking@travelexperts.it - Timeout or connection closed
+IMAP communication log:  
+2020-03-17-04-37-44-6520 Recv: * OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+2020-03-17-04-37-44-6520 Sent: A0001 CAPABILITY
+2020-03-17-04-37-44-8060 Recv: * CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ AUTH=PLAIN AUTH=LOGIN
+2020-03-17-04-37-44-8138 Recv: A0001 OK Pre-login capabilities listed, post-login capabilities have more.
+2020-03-17-04-37-44-8171 Sent: A0002 AUTHENTICATE LOGIN
+2020-03-17-04-37-44-9702 Recv: + VXNlcm5hbWU6
+2020-03-17-04-37-44-9703 Sent: *****
+2020-03-17-04-37-45-1232 Recv: + UGFzc3dvcmQ6
+2020-03-17-04-37-45-1233 Sent: *****
+19:40
+You can also send this log to your email server provider.
+19:41
+Found deadlock, PROCESSLIST: [["12159856","u228009_223f","192.168.137.49:35152","u228009_223f","Sleep","7","",null,"0.000"],["12160250","u228009_223f","192.168.137.49:37720","u228009_223f","Sleep","0","",null,"0.000"],["12160256","u228009_223f","192.168.137.49:37746","u228009_223f","Query","0","init","SHOW FULL PROCESSLIST","0.000"],["12160257","u228009_223f","192.168.137.49:37756","u228009_223f","Sleep","0","",null,"0.000"]] EXCEPTION:ERROR: Failed to execute SQL
